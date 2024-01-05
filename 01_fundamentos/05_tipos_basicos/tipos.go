@@ -54,4 +54,14 @@ func main() {
 	char := 'a'
 	fmt.Println(char)
 	fmt.Println("O tipo é char é", reflect.TypeOf(char))
+
+	// TIPO ZERO - zeros
+	var aa int
+	var bb float64
+	var cc bool
+	var dd string
+	var ee *int
+
+	fmt.Println("================================================================")
+	fmt.Printf("%v, %v, %v, %v, %v", aa, bb, cc, dd, ee)
 }
